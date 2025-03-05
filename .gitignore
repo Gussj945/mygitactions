@@ -1,0 +1,16 @@
+#ignoring specific file
+.env
+#ignoring specific directories
+/logs
+#ignoring file extension type
+*.psd
+#ignoring some specific file path
+important/superimportjant/top.secret
+#ignoring all logs folders
+**/logs
+#ignoring all bin folders
+**/bin
+#ignoring all folders with day of the week
+logs/*day/
+#ignoring all directories containing test
+**/*test
